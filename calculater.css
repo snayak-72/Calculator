@@ -1,0 +1,28 @@
+
+	 
+body{
+    text-align:center;
+    }	
+	
+table{
+margin:auto;}	
+input{
+font-size:25px;
+border:3px solid #f1f1f1;
+border-radius:20px;
+padding-left:15px;
+background-color:#f1f1f1;}
+button{
+ background-color:#f1f1f1;
+ font-size:20px;
+ height:40px;
+ width:55px;
+ border-radius:9px;
+ outline:none;
+ }
+button:hover{
+	border:2.2px solid red;
+	border-radius:9px;
+	font-size:22px;
+	
+}
