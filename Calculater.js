@@ -2,9 +2,13 @@ console.log("calculating...");
 const screen=document.getElementById("screen");
 const btn=document.querySelectorAll("button");
 console.log(btn,screen);
+
 let screenvalue="";
+
 screen.value="";
+
 btn.forEach((e)=>{
+
 	e.addEventListener("click",function(){
 		let btntext=e.innerText;
 		console.log(btntext);
@@ -33,6 +37,7 @@ btn.forEach((e)=>{
 			screenvalue+=btntext;
 			screen.value=screenvalue;
 		}
+		
 	});
 	
 	
